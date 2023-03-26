@@ -6,12 +6,12 @@
 }
 .navbar{
     background-color: #FFFFFF; 
-    width: 370mm;
+    width: 350mm;
     height:39px ;
     padding-left: 110px;
-    padding-right: 100px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-right: 110px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
 .ul-style{
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 5em;
 }
 .search{
         padding: 3px;
@@ -38,13 +38,43 @@
         display: flex;
         align-items: center;
         gap: 0.5em;
-        background-color: aliceblue;
-        border-radius: 1em;
-        width: 10em;
+        
+        
+        
+}
+.search .search-size{
+    width: 15px;
+    height: 15px;
 }
 .search .input-search{
     border: none;
     outline: none;
-    background-color:aliceblue ;
-    width: 100px;
+    
+    width: 80px;
+    font-size: 80%;
+}
+.search .login .user{
+    width: 13px;
+    height: 15px;
+}
+.search .login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 0.5em;
+    border: none;
+    
+
+}
+.burger-image-div .burger-image{
+    width: 100%;
+    position: relative;
+}
+.burger-image-div .header{
+    width: 100%;
+    position: absolute;
+    top: 200px;
+ 
+
 }
