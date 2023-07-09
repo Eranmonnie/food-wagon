@@ -1,80 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*{
-    box-sizing: border-box;
-    padding: 0;
+body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .navbar{
-    background-color: #FFFFFF; 
-    width: 350mm;
-    height:39px ;
-    padding-left: 110px;
-    padding-right: 110px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+
+    background-color: #FFFF;
+    padding: 5px 70px;   
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    
+}
+
+.logo-text{
+    
+    color:#F17228;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.778px;
+}
+
+.logo-text2{
+    
+    color:#FFB30E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.778px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ 
+li{
+    list-style: none;
+}
+
+.locations{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.location-text{
+    font-family: sans-serif;
+    text-align: center;
+    color: #424242;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    }
+
+.location-text2{
+    color: #424242;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    }
+
+.location-text3{
+    color: #424242;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+.search-login{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    border: none;
+    width: inherit;
+}
+
+.search:focus{
+    outline: none;
+}
+.search-logo{
+    width: 18px;
+    height: 18px;
+}
+
+.search::placeholder{
+    font-family: open sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+}
+
+.user{
+    width: 15px;
+    height: 18px;
+}
+
+.login-text{
+    color: #FFB30E;
+    font-family: open sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.middle{
+   
+    background: url(./assets/blankimage.png),  lightgray 0.717px -41.026px / 100% 106.613% no-repeat;
+   
+
+}
+
+.access{
+    padding: 132px 220px;
+    margin: 0 auto;
+    display: flex;
+    width: 600px;
+    max-width: 856px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.access-heading{
+    margin: 0;
+    padding: 0;
+    font-family: open Sans ;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.access-body{
+    margin-bottom: 0;
+    padding: 0;
+    font-family: open Sans ;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.input-bar{
+ width: inherit;
+ background-color: #FFFFFF;
+ border-radius: 15px;
+}
+
+.content{
+    padding: 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.inputs{
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
-.navbar .ul-style{
+
+.content-data{
+    color: #F17228;
+    font-family: open Sans ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.content-data2{
+    color: #757575;
+    font-family: open Sans ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.content2{
+    padding:0px 24px 24px 24px;
     display: flex;
     align-items: center;
-    
+    gap: 16px;
+
 }
-.navbar .ul-style .logo{
-    height: 18.5px;
-}
-.navbar .ul-style li{
-   list-style: none;
-}
-.ul-style{
+.content2-input-location{
+    padding:5px;
+    width: 75%;
     display: flex;
+    gap: 10px;
     align-items: center;
-    gap: 5em;
+    justify-content: center;
+    background-color: rgb(248, 246, 246);
+    border-radius: 10px;
 }
-.search{
-        padding: 3px;
-        padding-left: 10px;
-        display: flex;
-        align-items: center;
-        gap: 0.5em;
-        
-        
-        
-}
-.search .search-size{
-    width: 15px;
-    height: 15px;
-}
-.search .input-search{
+.content2-input{
+    padding: 7px 0px 8px 16px;
+    width: 80%;
+    border-radius: 5px;
     border: none;
-    outline: none;
-    
-    width: 80px;
-    font-size: 80%;
+    background-color: rgb(248, 246, 246);
 }
-.search .login .user{
-    width: 13px;
-    height: 15px;
+
+.content2-search{
+    width: 25%;
+    background-color: #F17228;
+    border-radius: 5px;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
 }
-.search .login{
+.content2-text2{
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 5px;
-    border-radius: 0.5em;
-    border: none;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
     
-
 }
-.burger-image-div .burger-image{
-    width: 100%;
+
+.content2-text2 span{
+    font-family: open sans;
+}
+
+
+.carousel-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-shrink: 0;
+    margin: 80px 0px;
+    
+}
+
+.items{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.food-image{
+    width: 250px;
+    flex-shrink: 0;
     position: relative;
 }
-.burger-image-div .header{
-    width: 100%;
+.words{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px 32px 0px 20px;
+    background: #FFB30E;
+    width: 25%;
     position: absolute;
-    top: 200px;
- 
+    bottom: 0px;
+    left: 0px;
+}
 
+.numbers{
+    font-family: open Sans;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106%;
+}
+.num-content{
+    color: #FFFFFF;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+   
+    font-family: open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.items-words{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.items-letter{
+    color: var(--theme-gray-800, #424242);
+    font-family: open Sans ;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.items-time{
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(241, 114, 40, 0.20);
+    color: var(--theme-warning, #F17228);
+    font-family: open Sans ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.info{
+    padding: 80px 0px;
+    text-align: center;
+    font-family: open Sans ;
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) 0%, rgba(253, 237, 202, 0.00) 100%);
+}
+
+.info-info{
+    color: #F17228;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%;
+}
+.info-content{
+    margin-top: 71px;
+}
+
+.info-main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+}
+.location-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-info{
+    width: 100px;
+}
+.info-main-d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-main-content-data{
+    color: #434343;
+    text-align: center;
+    font-family: open Sans ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.info-main-content-data2{
+    color: var(--theme-gray-500, #9E9E9E);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
 }
