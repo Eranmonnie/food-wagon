@@ -285,7 +285,7 @@ li{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 6px 20px;
     border-radius: 0px 32px 0px 20px;
     background: #FFB30E;
     width: 25%;
@@ -297,7 +297,7 @@ li{
 .numbers{
     font-family: open Sans;
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 106%;
@@ -308,7 +308,8 @@ li{
     display: flex;
     flex-direction: column;
     gap: 0px;
-   
+    align-items: center;
+    justify-content: center;
     font-family: open Sans;
     font-size: 20px;
     font-style: normal;
@@ -355,7 +356,7 @@ li{
 
 .info-info{
     color: #F17228;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 112%;
@@ -384,7 +385,7 @@ li{
     align-items: center;
 }
 .img-info{
-    width: 100px;
+    width: 70%;
 }
 .info-main-d{
     display: flex;
@@ -394,6 +395,7 @@ li{
 }
 
 .info-main-content-data{
+    text-align: center;
     color: #434343;
     text-align: center;
     font-family: open Sans ;
@@ -411,4 +413,99 @@ li{
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+.carousel2-data{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
+
+.carousel2{
+    margin: 80px 0px;
+    color:  #212121;
+    text-align: center;
+    font-family: open Sans ;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%
+}
+.carousel2-heading{
+    font-weight: bold;
+}
+
+.carousel2-menue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel2-menue-data{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.carousel2-menue-data-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.data-c2{
+    color: #424242;
+    font-family: open Sans ;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.data-c22{
+    color:  #FFB30E;
+    font-family: open Sans ;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.data-c23{
+    color: var(--theme-gray-900, #212121);
+    font-family: open Sans ;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.carousel2-button{
+    
+    display: flex;
+    padding: 21px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background:  #F17228;
+    color: #FFF;
+    text-align: center;
+    font-family: open Sans ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24), 0px 5px 10px 0px rgba(253, 114, 92, 0.22);
 }
