@@ -88,6 +88,7 @@ li{
 .search-login{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .search{
@@ -290,7 +291,7 @@ li{
     background: #FFB30E;
     width: 25%;
     position: absolute;
-    bottom: 0px;
+    bottom: 4px;
     left: 0px;
 }
 
@@ -463,7 +464,7 @@ li{
 .data-c2{
     color: #424242;
     font-family: 'Poppins' ;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -472,7 +473,7 @@ li{
 .data-c22{
     color:  #FFB30E;
     font-family: 'Poppins' ;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -484,7 +485,7 @@ li{
 .data-c23{
     color: var(--theme-gray-900, #212121);
     font-family: 'Poppins' ;
-    font-size: 19px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
