@@ -140,6 +140,7 @@ li{
    
     background: url(./assets/blankimage.png),  lightgray 0.717px -41.026px / 100% 106.613% no-repeat;
     background-size: cover;
+    
    
 
 }
@@ -371,6 +372,7 @@ li{
 .info-main{
     margin: 0 auto;
     display: flex;
+    gap: 1em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -382,7 +384,7 @@ li{
     justify-content: center;
     align-items: center;
     gap: 41px;
-    width: 25%;
+    width: 270px;
 
 }
 .location-image{
